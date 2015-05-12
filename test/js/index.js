@@ -19,7 +19,7 @@ canvas.height = height;
 var platforms = [],
 	image = document.getElementById("sprite"),
 	player, platformCount = 10,
-	position = 0,$,
+	position = 7,$,
 	animloop,
 	flag = 0,
 	menuloop, broken = 0,
