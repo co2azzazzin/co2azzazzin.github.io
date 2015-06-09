@@ -1,0 +1,12 @@
+body {
+  width: 140px;
+  margin: 40px auto;
+}
+div {
+  height: 10px;
+  width: 10px;
+  float: left;
+}
+div:nth-of-type(13n+1) {
+  clear: left;
+}
